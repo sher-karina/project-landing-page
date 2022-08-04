@@ -1,0 +1,63 @@
+/* THIS IS THE BIT THAT RELATES TO THE NAVIGATION BAR */
+
+.header {
+      background-color: #1f2937;
+      color: #f9faf8;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .header p {
+        font-size: 16px;
+        font-weight: bold;
+    }
+        
+ul {
+    list-style: none; 
+    display: flex;
+    gap: 12px;
+ }   
+
+a {
+    color: #f9faf8;
+    text-decoration: none;
+ } 
+
+/* THIS IS THE BIT THAT RELATES TO SECTION 1 */
+
+.section1 {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    padding: 50px 70px;
+    justify-content: space-around;
+
+}
+
+#section1img {
+    width: 400px;
+    max-width: 800px;
+    height: auto;
+}
+
+.section1a {
+    width: 400px;
+    max-width: 800px;
+    flex-wrap: wrap;
+    align-self: stretch;
+
+
+}
+
+.section1a button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px 18px;
+    border-radius: 10px;
+    font-weight: bolder;
+
+
+
+}
+ 
+ 
